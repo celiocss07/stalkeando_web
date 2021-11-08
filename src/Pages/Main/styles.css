@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.BellIcon {
+    position: relative;
+    height  : 90px;
+
+}
+
+.Top {
+    display            : flex;
+    flex-direction     : row;
+    justify-content    : center;
+    margin-top         : 76px;
+    height             : 400px;
+    width              : 100%;
+    background-image   : url('../../assets/Stalkeando\ 1.png');
+    background-position: right;
+    background-repeat  : no-repeat;
+    background-size    : contain;
+
+
+}
+
+.title1 {
+    font-family: Inter;
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 48px;
+    line-height: 42px;
+    /* or 87% */
+
+    letter-spacing: -0.021em;
+
+    /* #FF00B6 */
+
+    color: #FF00B6;
+    width: 513px;
+
+}
+
+.text1 {
+    /* Body */
+    width      : 513px;
+    font-family: Inter;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 17px;
+    line-height: 22px;
+    /* or 129% */
+
+    letter-spacing: 0.013em;
+
+    /* #48484A */
+
+    color: #48484A;
+}
+
+.TopCenter {
+    width          : 80%;
+    padding        : 24px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+}
+
+.StartBtn {
+
+    background     : linear-gradient(90deg, #004DE1 0%, #1247DE 1%, #4439D6 5%, #702BCE 8%, #971FC8 12%, #B716C2 17%, #D10EBE 21%, #E608BA 26%, #F403B8 32%, #FC01B6 38%, #FF00B6 49%, #FF03B4 62%, #FF0BAD 69%, #FF19A0 75%, #FF2E8F 80%, #FF4878 85%, #FF685D 90%, #FF8F3C 94%, #FFBA16 98%, #FFD400 100%);
+    border-radius  : 24px;
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: center;
+    width          : 237px;
+    height         : 62px;
+    font-family    : Inter;
+    font-style     : normal;
+    font-weight    : bold;
+    font-size      : 24px;
+    line-height    : 30px;
+    text-align     : center;
+    letter-spacing : -0.019em;
+    color          : #F2F2F7;
+}
+
+.div2 {
+    width          : 100%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+    align-items    : center;
+    background     : #9D40FF;
+    padding        : 40px 8px;
+}
+
+.div3 {
+    width          : 100%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+    align-items    : center;
+    background     : #FF00B6;
+    padding        : 40px 8px;
+}
+
+.div4 {
+    width          : 100%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+    align-items    : center;
+    background     : #FFF;
+    padding        : 40px 8px;
+}
+
+.Title2 {
+    font-family: Inter;
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 48px;
+
+    text-align    : center;
+    letter-spacing: -0.021em;
+    color         : #FFFFFF;
+    max-width     : 560px;
+}
+
+.Title3 {
+    font-family: Inter;
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 30px;
+
+    /* or 140% */
+
+    text-align    : center;
+    letter-spacing: -0.021em;
+
+    color: #FFFFFF;
+}
+
+.title4 {
+    font-family: Inter;
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 48px;
+    line-height: 42px;
+    /* or 87% */
+
+    text-align    : center;
+    letter-spacing: -0.021em;
+
+    /* #3A3A3C */
+
+    color: #3A3A3C;
+}
+
+.center {
+    width          : 80%;
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items    : center;
+
+    margin: 16px 0px;
+}
+
+.btn1 {
+    background    : #FFFFFF;
+    border-radius : 12px;
+    display       : flex;
+    flex-direction: row;
+    align-items   : flex-start;
+    padding       : 8px 12px;
+}
+
+.btn2 {
+
+    margin     : 0px 10px;
+    font-family: Inter;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 13px;
+    line-height: 16px;
+    /* identical to box height, or 123% */
+
+    text-align    : center;
+    letter-spacing: -0.003em;
+
+    color         : #FFFFFF;
+    border        : 1px solid #FFFFFF;
+    box-sizing    : border-box;
+    border-radius : 12px;
+    display       : flex;
+    flex-direction: row;
+    align-items   : flex-start;
+    padding       : 8px 12px;
+}
+
+.btn3 {
+    display       : flex;
+    flex-direction: row;
+    align-items   : flex-start;
+    padding       : 16px 32px;
+    background    : #FF00B6;
+    border-radius : 24px;
+    font-family   : Inter;
+    font-style    : normal;
+    font-weight   : bold;
+    font-size     : 24px;
+    line-height   : 30px;
+    text-align    : center;
+    letter-spacing: -0.019em;
+    color         : #F2F2F7;
+    order         : 0;
+    flex-grow     : 0;
+
+}
+
+.text3 {
+    font-family: Inter;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 17px;
+    line-height: 26px;
+    /* or 153% */
+
+    text-align    : center;
+    letter-spacing: 0.017em;
+
+    color: #FFFFFF;
+}
+
+.box {
+    background     : #FFFFFF;
+    border-radius  : 24px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+    align-items    : center;
+    padding        : 32px;
+    width          : 224px;
+    margin         : 16px;
+}
+
+.ArticleTitle {
+    font-family: Inter;
+    font-style : normal;
+    font-weight: 600;
+    font-size  : 17px;
+    line-height: 22px;
+    /* or 129% */
+
+    text-align    : center;
+    letter-spacing: -0.013em;
+
+    /* #3A3A3C */
+
+    color : #3A3A3C;
+    margin: 8px;
+}
+
+.ArticleText {
+    font-family: Inter;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 13px;
+    line-height: 16px;
+    /* or 123% */
+
+    text-align    : center;
+    letter-spacing: -0.003em;
+
+    /* #3A3A3C */
+max-width: 500px;
+    color : #3A3A3C;
+    margin: 8px;
+}

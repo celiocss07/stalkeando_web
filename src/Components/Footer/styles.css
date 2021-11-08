@@ -1,0 +1,42 @@
+footer {
+    width          : 100%;
+    background     : #F2F2F7;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    padding        : 32px;
+}
+
+.divLogo {
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: center;
+    margin         : 16px 0px;
+}
+
+.iconBox {
+    margin: 8px;
+}
+
+p {
+    font-family: Inter;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 13px;
+    line-height: 16px;
+    /* identical to box height, or 123% */
+
+    text-align    : center;
+    letter-spacing: -0.003em;
+
+    /* #3A3A3C */
+
+    color: #3A3A3C;
+    margin: 16px;
+}
+
+.lojaBox {
+    margin: 16px;
+}
