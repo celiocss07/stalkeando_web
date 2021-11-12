@@ -1,4 +1,5 @@
 footer {
+
     width          : 100%;
     background     : #F2F2F7;
     display        : flex;
@@ -6,6 +7,9 @@ footer {
     justify-content: center;
     align-items    : center;
     padding        : 32px;
+}
+a {
+    cursor: pointer;
 }
 
 .divLogo {
@@ -33,10 +37,22 @@ p {
 
     /* #3A3A3C */
 
-    color: #3A3A3C;
+    color : #3A3A3C;
     margin: 16px;
 }
 
 .lojaBox {
     margin: 16px;
+}
+
+.lojaBox > a {
+    cursor: pointer;
+    font-family: Inter;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 11px;
+    line-height: 14px;
+    text-align    : center;
+    letter-spacing: 0.005em;
+    color: #C7C7CC;
 }

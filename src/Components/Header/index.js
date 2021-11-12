@@ -2,21 +2,27 @@ import React from 'react';
 import './styles.css';
 import logo from '../../assets/Horizontal.app.png';
 
-function Header() {
+function Header({ history }) {
+
+  function navigation(route){
+
+    history.push(`/${route}`)
+  }
   return (
     <header className="Header">
       <nav className="Menu">
-        <a href='#' className='FaqsLink'>
+        <a  className='FaqsLink' onClick={ () => navigation('')}>
           <img src={logo} height='29px;' width='189px' />
         </a>
 
 
         <div className='List'>
-          <a href='#' className='FaqsLink'> Faqs</a>
-          <a href='#' className='LoginBtn'> Login</a>
-          <a href='#' className='SignUpBtn'> Fazer Login</a>
+          <a className='FaqsLink' onClick={ () => navigation('Faqs')}> FAQ</a>
+          <a href='#' className='LoginBtn'> Cadastrar</a>
+          <a href='/Faqs' className='SignUpBtn' > Fazer Login</a>
         </div>
       </nav>
+      
     </header>
   );
 }

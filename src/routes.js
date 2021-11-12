@@ -2,20 +2,21 @@ import React from 'react';
 import {
     BrowserRouter,
     Switch,
-    Route,
-    Link
+    Route
   } from "react-router-dom";
 // import { Container } from './styles';
 import Main from './Pages/Main'
 import Faqs from './Pages/Faqs'
+import Terms from './Pages/Terms';
 
 function Routes() {
     return (
         <BrowserRouter>
-            <Switch>
+            
                 <Route path="/" exact component={Main} />
                 <Route path="/Faqs" exact component={Faqs} />
-            </Switch>
+                <Route path="/Terms" exact component={Terms} />
+            
         </BrowserRouter>
     )
 }

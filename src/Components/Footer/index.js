@@ -9,10 +9,12 @@ import './styles.css';
 import AppleIcon from './../../assets/AppStore.png'
 import GoogleIcon from './../../assets/GooglePlay.png'
 
-function Footer() {
+function Footer({ history}) {
     return (
         <footer>
-            <a href='#' >
+            <a  onClick={ ( ) => {
+                    history.push('/')
+                }}>
                 <img src={logo} />
             </a>
 
@@ -35,14 +37,24 @@ function Footer() {
                 Para atendimento e suporte ao cliente, envie um e-mail para: suporte@stalkeando.app
             </p>
 
-            <div className='lojaBox'> 
-            <a href='#' >
-              <img src={AppleIcon} />
-            </a>
-            <a href='#' >
-              <img src={GoogleIcon} />
-            </a>
-          </div>
+            <div className='lojaBox'>
+                <a href='#' >
+                    <img src={AppleIcon} />
+                </a>
+                <a href='#' >
+                    <img src={GoogleIcon} />
+                </a>
+            </div>
+            <div className='lojaBox'>
+                <a  onClick={ ( ) => {
+                    history.push('/Terms')
+                }} >
+                    Termos e condições, políticas de privacidade.
+                </a>
+                <a href='#' >
+                    Todos os direitos reservados 2021 stalkeando.app
+                </a>
+            </div>
         </footer>
     )
 }

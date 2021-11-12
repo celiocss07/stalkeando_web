@@ -6,12 +6,21 @@
     height  : 90px;
 
 }
+.main {
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 72px;
+   
+}
 
 .Top {
     display            : flex;
     flex-direction     : row;
     justify-content    : center;
-    margin-top         : 76px;
     height             : 400px;
     width              : 100%;
     background-image   : url('../../assets/Stalkeando\ 1.png');
@@ -29,13 +38,13 @@
     font-size  : 48px;
     line-height: 42px;
     /* or 87% */
-
+text-align: left;
     letter-spacing: -0.021em;
 
     /* #FF00B6 */
 
     color: #FF00B6;
-    width: 513px;
+   max-width: 600px;
 
 }
 
@@ -48,7 +57,7 @@
     font-size  : 17px;
     line-height: 22px;
     /* or 129% */
-
+text-align: left;
     letter-spacing: 0.013em;
 
     /* #48484A */
@@ -62,6 +71,7 @@
     display        : flex;
     flex-direction : column;
     justify-content: space-around;
+    align-items: left;
 }
 
 .StartBtn {
@@ -116,14 +126,16 @@
 
 .Title2 {
     font-family: Inter;
-    font-style : normal;
-    font-weight: bold;
-    font-size  : 48px;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 42px;
+/* or 87% */
 
-    text-align    : center;
-    letter-spacing: -0.021em;
-    color         : #FFFFFF;
-    max-width     : 560px;
+text-align: center;
+letter-spacing: -0.021em;
+
+color: #FFFFFF;
 }
 
 .Title3 {
@@ -156,13 +168,14 @@
     color: #3A3A3C;
 }
 
-.center {
+.center1 {
+    
     width          : 80%;
     display        : flex;
     flex-direction : row;
     justify-content: center;
     align-items    : center;
-
+    flex-wrap: nowrap;
     margin: 16px 0px;
 }
 
@@ -232,15 +245,15 @@
     color: #FFFFFF;
 }
 
-.box {
+.box1 {
     background     : #FFFFFF;
     border-radius  : 24px;
     display        : flex;
     flex-direction : column;
     justify-content: space-around;
     align-items    : center;
-    padding        : 32px;
-    width          : 224px;
+   padding: 32px;
+    max-width          : 224px;
     margin         : 16px;
 }
 
