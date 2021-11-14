@@ -1,0 +1,136 @@
+main {
+    
+    display        : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.usersContainer {
+    width  : 80%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.userBox {
+    
+    height          : 80px;
+    width           : 80px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: #F2F2F7;
+    margin-right    : 8px;
+    border-radius   : 50%;
+}
+
+.userInfo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 32px 0px;
+}
+
+.userInfo > h4{
+    margin: 0px;
+}
+
+.userInfo > ul{
+    display: flex;
+    margin: 8px 0px;
+}
+
+.userInfo > ul > li{
+    margin-right: 16px;
+    color: #3A3A3C;
+}
+
+.containerActions{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.containerActions > ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.containerActions > ul > li{
+    cursor: pointer;
+    padding: 16px;
+    background-color: #F2F2F7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle{
+    margin: 16px 0px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+
+.middle > a {
+
+    background-color: #00FF9D;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.middle > a > img{
+    margin-left: 8px;
+}
+
+.handleFollowers {
+    width: 80%;
+    margin-bottom: 80px;
+}
+
+.handleFollowers > ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.handleFollowers > ul > li{
+    width: 100%;
+    border: 2px solid #F2F2F7;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 8px 0px;
+    border-radius: 16px;
+    color: #3A3A3C;
+
+}
+
+.img{
+    padding: 16px;
+    background-color: #F2F2F7;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
