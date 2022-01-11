@@ -25,13 +25,13 @@ function Header({ history, type }) {
                 backgroundColor: '#F2F2F7'
               }}>
                 
-                <img src={Left}  />
+                <img alt='icone de voltar' src={Left}  />
                 voltar
               </a>
             ) :
             (
               <a className='FaqsLink' onClick={() => navigation('')}>
-                <img src={logo} height='29px;' width='189px' />
+                <img alt='Logo app stalkeando' src={logo} height='29px;' width='189px' />
               </a>
             )
         }
@@ -43,7 +43,7 @@ function Header({ history, type }) {
           <a href='#' className='LoginBtn' > Adicionar saldo</a>
           <a href='#' className='SignUpBtn' onClick={( ) => {
             history.push('/settings')
-          }}><img src={emoji} /></a>
+          }}><img alt='icone de settings' src={emoji} /></a>
         </div>
       </nav>
 
